@@ -1,0 +1,25 @@
+nav{
+	padding: 5*$padding;
+	background: $backColor;
+	//border:2px solid $fontColor;
+	width: $width;
+	display: none;
+	z-index: 3;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+
+	ul{
+		li{
+			padding: $padding;
+			font-size: 35px;
+			a{
+				color: $fontColor;
+			}
+		}
+	}
+}
+
+.active{
+	display: block;
+}

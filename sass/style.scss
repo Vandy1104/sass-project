@@ -1,0 +1,34 @@
+@import 'resets';
+@import 'variables';
+@import 'mixins';
+@import 'images';
+
+@import 'nav';
+@import 'icons';
+@import 'para';
+@import 'buttons';
+
+body{
+	background: $backColor;
+	color: $fontColor;
+}
+
+h1{
+	padding: $padding;
+	margin: 5*$margin;
+	text-align: $textAlign;
+	/*transform: rotate(180deg);*/
+
+}
+
+/*#head{
+	border: 90px double red;
+	opacity: 0.3;
+	height: 300px;
+	width:auto;
+}*/
+
+
+.parapara{
+	padding: 0px 50px;
+}
