@@ -44,24 +44,17 @@ nav {
 
 .row {
   margin: auto;
-  width: 100%;
-  float: left; }
+  width: 100%; }
 
 .paraLeft, .paraRight {
   float: left;
   width: 50%;
   text-align: justify;
-  margin: 50px;
-  padding: 15px;
-  background: white; }
-
-.text, .list {
-  margin: 10px; }
+  padding: 75px; }
 
 .list {
   margin-left: 60px;
   padding: 10px;
-  background: white;
   width: 43%; }
 
 .btn {
@@ -84,7 +77,5 @@ h1 {
 	height: 300px;
 	width:auto;
 }*/
-.parapara {
-  padding: 0px 50px; }
 
 /*# sourceMappingURL=style.css.map */
